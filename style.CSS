@@ -1,63 +1,136 @@
 body {
     margin: 0;
     padding: 0;
+    
+    
 }
 
 .temple {
-       position: relative;
+       background-image: url('images\desktop-japanese-art-galf0xder.jpg');
+       position: absolute;
        display: flex;
        justify-content: center;
        width: 100%;
-       height: 80vh;
+       height: 100%;
        display: flex;
-       bottom: 0;
-
-}
+       
+      
+ 
+    }
 
 .temple img {
     position: absolute;
     width: 100%;
-    bottom: 0;  
-}
-
-#osaka {
-    width: 10%;
-    bottom: 20%;
-    margin-left: 25%;
+    height: 100%;
+    bottom: 0; 
+    top: 0;   
+    
 }
 
 
-
-#bonsai {
+.sakura-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 10%;
+    height: 20%;
+    margin: 20px;
+    bottom: 58%;
+    margin-right: 35%;  
+}
+
+.sakura-container:hover {
+    transform: translateY(-1px)  scale(1.1);;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.bonsai-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    height: 20%;
+    margin: 20px;
     bottom: 20%;
-    margin-right: 70%;
-    }
+    margin-right: 35%;
+}
 
-#castle {
-        width: 10%;
-        bottom: 20%;
-        margin-left: 70%;
-    }
+.bonsai-container:hover {
+    transform: translateY(-1px)  scale(1.1);;
+    transition: transform 0.2s ease-in-out;
+}
+    
+.osaka-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    height: 20%;
+    margin: 20px;
+    bottom: 60%;
+    margin-left: 15%;
+}
 
-#sakura {
-        width: 10%;
-        bottom: 20%;
-        margin-right: 20%;
-    }
+.osaka-container:hover {
+    transform: translateY(-1px)  scale(1.1);;
+    transition: transform 0.2s ease-in-out;
+}
 
-    .about-me {
+.castle-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    height: 20%;
+    margin: 20px;
+    bottom: 20%;
+    margin-left: 15%;
+}
+
+.castle-container:hover {
+    transform: translateY(-1px)  scale(1.1);;
+    transition: transform 0.2s ease-in-out;
+}
+
+  
+
+.about-me {
         height: 300px;
         background-color: rgb(48, 2, 2);
         padding: 40px;
         display: flex;
         justify-content: center;
+        
+        
     }
 
+  
     h1 { 
         color: rgb(181, 137, 137);
+        text-align: center;
+        position: absolute;
+        margin: 0;
+        padding: 2px;
+        bottom: 10%;
+        
+        
+        
     }
 
-    #sakura:hover {
-        color: yellow;
+    h1:hover {
+        transform: translateY(-1px)  scale(1.1);;
+        transition: transform 0.2s ease-in-out;
     }
+
+  
+
+   
